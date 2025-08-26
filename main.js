@@ -4,6 +4,7 @@
         title: 'FizzBuzz',
         content:'0~100までの数字を入力してFizzBuzzを出力してみよう',
         message:'数字の入力をお願いします',
+        
         fizzbuzz: function() {
             const checkMath = prompt(this.message);    
             const main = document.querySelector('main');
